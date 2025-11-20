@@ -1,0 +1,62 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #0f172a;
+  background: #f8fafc;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.hero {
+  background: linear-gradient(120deg, #1f8ef1, #2dd4bf);
+  padding: 70px 0;
+  color: #fff;
+}
+
+.feature-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.footer {
+  background: #081226;
+  padding: 30px 0;
+  color: #d1d5db;
+}
+
+.glightbox-clean .gslide-media {
+  background: #000 !important;
+}
+
+/* Khung slide tự chỉnh theo kích thước ảnh */
+.carousel-item {
+  text-align: center;
+  padding: 20px;
+  transition: height 0.3s ease;
+}
+
+/* Nền đẹp cho slide (gradient nhẹ) */
+.carousel-item {
+  background: linear-gradient(135deg, #eef2f3 0%, #d9e4ec 100%);
+  border-radius: 16px;
+}
+
+/* Ảnh auto-scale, không làm thay đổi tỷ lệ */
+.carousel-item img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+/* Lightbox sửa ảnh fit */
+.glightbox-container .gslide-image img {
+  max-width: 100%;
+  max-height: 90vh !important;
+  object-fit: contain !important;
+}
+
